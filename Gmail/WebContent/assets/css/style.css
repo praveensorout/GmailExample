@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_body{
+    display: flex;
+	height:100vh;
+}
+body{
+    height:100vh;
+    overflow-y: hidden;
+}
+.emailList{
+    flex: 1;
+    overflow: scroll;
+}
+.inb{
+	height: 50px;
+	border-bottom: 1px solid whitesmoke;
+	cursor: pointer;
+	padding:20px;
+}
+#sender{
+	font-size:15px;
+	font-weight:bold;
+}
+#sender i,inp{
+	margin:5px;
+}
+#message{
+	font-size:17px;
+	font-weight:bold;
+}
+#time{
+	font-size:18px;
+	font-weight:lighter;
+}
+.msg:hover{
+	border-top: 1px solid whitesmoke;
+    box-shadow: 0 4px 4px -2px rgba(0,0,0,0.24);
+}
+.emailList_list{
+	position:absolute;
+	padding-top:200px;
+	padding-left:50px;
+}
+.emailRow_options{
+    display: flex;
+    align-items: center;
+}
+.emailRow_options i,input{
+    margin: 5px;
+}
+.emailrow{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+    z-index: 999;
+}
+.emailrow:hover{
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0 4px 4px -2px rgba(0,0,0,0.24);
+}
+.emailrow_message{
+    display: flex;
+    flex:0.8;
+    align-items: center;
+    font-size: 13px;
+}
+.emailrow_message h4{
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px;
+}
+.emailrow_title{
+    font-size: 13px;
+    flex: 0.3;
+}
+.emailrow_time{
+    padding-right: 15px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.emailrow_description{
+    font-weight: 400;
+    color: grey;
+}

@@ -1,0 +1,53 @@
+.*{
+	margin:0;
+	padding:0;
+}
+nav{
+	height:50px;
+	width:100%;
+	background-color:black;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+nav h1{
+	color:white;
+	font-size:25px;
+	font-weight:lighter;
+	padding:5px 25px;
+}
+nav .icons i{
+	color:white;
+	padding:5px 10px;
+	font-size:22px;
+}
+.container{
+	height:500px;
+	width:400px;
+	background-color:white;
+	text-align:center;
+}
+
+.container input{
+	padding:5px 20px;
+	border:none;
+	outline:none;
+	margin:10px;
+	font-size:25px;
+}
+.tab{
+	border-bottom:1px solid gray;
+}
+.bttn{
+	padding:5px 10px;
+	background-color:blue;
+	color:white;
+	border:none;
+	border-radius:10px;
+	cursor:pointer;
+}
+.button{
+	display:flex;
+	align-items:center;
+	margin-top:25px;
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color:white;
+	
+}
+.container{
+    background-color: whitesmoke;
+    color: black;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    margin: auto;
+	margin-top:auto;
+	padding-top:22px;
+	margin-top:50px;
+	border-radius:12px;
+}
+.spn1{
+    color: blue;
+}
+.spn2{
+    color: red;
+}
+.spn3{
+    color: orange;
+}
+.spn4{
+    color: blue;
+}
+.spn5{
+    color: green;
+}
+.spn6{
+    color: red;
+}
+.container h1{
+    font-size: 30px;
+	font-weight:bold;
+	padding:10px;
+}
+.container h2{
+    font-size: 25px;
+	font-weight:bold;
+	padding:8px;
+}
+.container p{
+    font-size: 20px;
+	font-weight:lighter;
+	padding:10px 0;
+	font-family:;
+}
+.inp{
+    padding:10px 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color:white;
+    color: black;
+    margin-left: 2rem;
+    margin-top: 1rem;
+	border:none;
+	outline:none;
+	border-radius:12px;
+}
+.inp:focus{
+	outline:1px solid blue;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    background-color:  mediumblue;
+    color: white;
+    font-size: 18px;
+    margin-top: 33px;
+}
+.btn a{
+    color: white;
+    font-size: 18px;
+}
+#log{
+	padding:10px 20px;
+	cursor:pointer;
+}
+#acnt{
+	padding:10px 5px;
+}
+.button{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	gap:44px;
+}
+.lang{
+	width:400px;
+	margin:auto;
+	background-color:white;
+	display:flex;
+	align-items:center;
+}
+.lang h1{
+	color:green;
+	font-size:25px;
+}
+.lang p{
+	font-weight:lighter;
+	padding:15px 5px;
+	font-size:25px;
+	color:grey;
+}
+
